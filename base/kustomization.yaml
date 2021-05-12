@@ -1,0 +1,7 @@
+resources:
+- namespace.yaml
+- rbac.yaml
+- catalogsource.yaml
+- operatorgroup.yaml
+- subscription.yaml
+- pmemcsideployment.yaml
