@@ -46,4 +46,6 @@ $ oc get pods
 $ oc logs deployment/pmem-csi-operator
 $ oc logs sts/pmem-csi-intel-com-controller
 $ oc logs ds/pmem-csi-intel-com-node --all-containers
+
+$ oc get nodes -L feature.node.kubernetes.io/memory-nv.dax
 ```
