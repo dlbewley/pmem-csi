@@ -1,5 +1,8 @@
 # Installing PMEM CSI Driver Operator on OpenShift
 
+**Caveats**
+
+The cluster OperatorHub will present duplicate operators due to creation of a second (more voluminous) [CatalogSource](base/catalogsource.yaml) tracking [OperatorHub.io](https://operatorhub.io/).
 # Prereqs
 
 * Nodefeature discovery operator installed and enabled. **Or** manually `oc label node <node-name> feature.node.kubernetes.io/memory-nv.dax=true`
