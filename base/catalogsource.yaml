@@ -4,8 +4,8 @@ kind: CatalogSource
 metadata:
   name: operatorhubio-catalog
   namespace: openshift-marketplace
-  publisher: OperatorHub.io
 spec:
   image: quay.io/operatorhubio/catalog:latest
   displayName: Upstream Operatorhub.io Catalog
+  publisher: OperatorHub.io
   sourceType: grpc
