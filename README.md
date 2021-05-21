@@ -1,5 +1,7 @@
 # Installing PMEM CSI Driver Operator on OpenShift
 
+Installing Intel [pmem-csi operator](https://github.com/intel/pmem-csi) to OpenShift.
+
 **Caveats**
 
 The cluster OperatorHub will present duplicate operators due to creation of a second (more voluminous) [CatalogSource](base/catalogsource.yaml) tracking [OperatorHub.io](https://operatorhub.io/).
